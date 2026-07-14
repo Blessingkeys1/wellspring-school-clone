@@ -1,0 +1,2318 @@
+<!DOCTYPE html><html lang="en" class="landing-template"><head>
+    
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-M7X5MGJ');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!--Custom HTML Header -->
+<script async="" src="https://tag.ubiqeducation.distilled.untitledfirm.com/subclient/thewalkerschool"></script>
+
+<meta name="google-site-verification" content="83v12fVs8P2y62fs4fpA-4yXm5XD-1p0R3wi-8LaTB8">
+        <!-- End Custom Html Header -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link href="https://thewalkerschool-cdn.website.amais.com/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="https://thewalkerschool-cdn.website.amais.com/css/site.min.css?v=1.158.26191.14" rel="stylesheet" type="text/css">
+<link href="https://thewalkerschool-cdn.website.amais.com/plugins/slick/slick.css" rel="stylesheet" type="text/css">
+<link href="https://thewalkerschool-cdn.website.amais.com/plugins/slick/slick-theme.css" rel="stylesheet" type="text/css">
+<script src="https://thewalkerschool-cdn.website.amais.com/lib/Kendo/2024.3.806/jquery.min.js?v=1.158.26191.14"></script>
+<script src="https://thewalkerschool-cdn.website.amais.com/lib/bootstrap/dist/js/bootstrap.bundle.min.js?v=1.158.26191.14"></script>
+<script src="https://thewalkerschool-cdn.website.amais.com/plugins/slick/slick.min.js?v=1.158.26191.14"></script>
+
+    <script src="https://thewalkerschool-cdn.website.amais.com/plugins/magnific-popup/magnific-popup.min.js?v=1.158.26191.14"></script>
+
+
+
+<script type="text/javascript">
+
+        var amaisDxpIngressAPI = null;
+
+        async function initAmaisDxpInsight(e) {
+            e.detail.service.api.Client('nvYLxu459Cnh334aR6kDtR2PU6iJ8G44H2nz0W4rCQYSZLbg9kUAhUC2BURbnqSvXhhLRDkd1JIBCQTqjYQjfW3lHsvuzo4g0H4K', 'TheWalkerSchool', 'https://ingress.dxp.amais.com');
+            amaisDxpIngressAPI = e.detail.service.api;
+            await e.detail.service.api.InitTracker({ trls: true, trua: true });
+            await e.detail.service.api.interactionCreate({ predicate: "Visit", objectMetadata: { contentType: "Page", pageId: "131", canonicalTitle: "Admission", canonicalURL: "https://www.thewalkerschool.org/admission"}});
+        }
+        document.addEventListener('amais-insight-sdk-ready', initAmaisDxpInsight);
+
+        $(document).on("amais:bookmark:added", function (event, data) {
+            if (amaisDxpIngressAPI != null && data != null && data.url && $.trim(data.url)) {
+                amaisDxpIngressAPI.interactionCreate({ predicate: "Added Interest", object: data.url });
+            } 
+        });
+
+        $(document).on("amais:bookmark:removed", function (event, data) {
+            if (amaisDxpIngressAPI != null && data != null && data.url && $.trim(data.url)) {
+                amaisDxpIngressAPI.interactionCreate({ predicate: "Removed Interest", object: data.url });
+            }
+        });
+
+        $(document).on("amais:admissions:calculator:clicked", function (event, data) {
+            var interaction = { predicate: "Admissions Calculator Used" };
+            
+            if (data != null && data.nameAndDob && $.trim(data.nameAndDob)) {
+                interaction.object = data.nameAndDob;
+            }
+
+            if (data != null && data.parentFirstName && $.trim(data.parentFirstName) && data.parentEmail && $.trim(data.parentEmail) && data.contactType && $.trim(data.contactType)) {
+                interaction.subjectMetadata = { Email: data.parentEmail, FirstName: data.parentFirstName, ContactType: data.contactType };
+            }
+
+            if (amaisDxpIngressAPI != null) {
+                amaisDxpIngressAPI.interactionCreate(interaction);
+            }
+        });
+
+</script>
+<script type="text/javascript" src="../js/COLLECTOR/v1_0/collector_v%3D1.158.26191.14.js" async=""></script>
+
+        <title>Admission</title>
+        <link rel="canonical" href="https://www.thewalkerschool.org/admission">
+        <meta property="og:type" content="Website">
+        <meta name="robots" content="all">
+        <link rel="icon" href="../../thewalkerschool.static.amais.com/favicon-90.ico">
+
+    <!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../Templates/TheWalkerSchool/css/style.css">
+</head>
+
+<body id="landing-page" class="landing-page ">
+    
+        <div class="site-page-title site-container hidden-block">
+            <h1 class="site-page-title-block">
+                Admission
+            </h1>
+        </div>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7X5MGJ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+<div id="errorAlert" class="alert-message alert-warning-message fade show" role="alert" style="display:none;">
+    <div class="alert-message-icon">
+        <i class="icon-warning"></i>
+    </div>
+    <div class="alert-message-desc-wrapper">
+        <div class="alert-message-title">Alert</div>
+        <div class="alert-message-desc"></div>
+    </div>
+    <div class="alert-close">
+        <i class="icon-cross"></i>
+    </div>
+</div>
+<div id="alertDialog" class="alert-message alert-warning-message fade show" role="alert" style="display:none;">
+    <div class="alert-message-icon">
+        <i class="icon-warning"></i>
+    </div>
+    <div class="alert-message-desc-wrapper">
+        <div class="alert-message-title">Info</div>
+        <div class="alert-message-desc"></div>
+    </div>
+    <div class="alert-close">
+        <i class="icon-cross"></i>
+    </div>
+</div>
+
+    
+<script>
+    $(document).ready(function () {
+    $("body").addClass("admin-section-cms admin-section-website");
+
+        $(document).on("click",".front-option-mbl-title",function() {
+            $(this).next(".front-option-list-links").toggleClass("front-option-list-links-active")
+            $(this).toggleClass("front-option-mbl-title-active")
+            $(".front-option-mbl-title").html("Options");
+        });
+
+        $(".front-operation-mbl-title").click(function() {
+            $(this).toggleClass("front-operation-mbl-title-active")
+            $(".front-operation-wrapper").toggleClass("front-operation-wrapper-expand")
+        });
+    });
+</script>
+
+
+    <div id="page-wrapper" class="page-wrapper site-page-wrapper ">
+
+        <!-- Start Header -->
+        <header id="site-header" class="site-header">
+<div class="site-container">
+  <div class="site-header-block">
+    <div class="site-header-logo">
+      <div id="site-header-logo" class="feature-zone  ">
+
+
+    <div id="GalleryFeature_ba382700d1e84e59a408fe8c7b0d1174" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slider-link-wrapper   site-feature-bottom-no-space-wrapper cms-tag-feature-gallery-wrapper cms-tag-feature-header-wrapper " featureid="3078" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery header ">
+
+            <div class="cms-feature-datablock site-slider site-slider-link  site-feature-bottom-no-space cms-tag-feature-gallery cms-tag-feature-header ">
+                <div id="site-slideshow_ba382700d1e84e59a408fe8c7b0d1174" class="site-slick-wrapper ">
+                            <div class="site-slide  site-slider-with-image" style="background-image: url(https://thewalkerschool.static.amais.com/WALK_2024_Logo_Horiz_Maroon_2-639-optimized.webp?version=638620945428030000)">
+                                <a href="../index.html" class="site-slide-link">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/WALK_2024_Logo_Horiz_Maroon_2-639-optimized.webp?version=638620945428030000" class="site-slider-image" title="" alt="">
+    </div>
+
+                                </a>
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_ba382700d1e84e59a408fe8c7b0d1174').slick({ infinite: false, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 1, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: false, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false });
+                    });
+                </script>
+            </div>
+</div>
+
+
+</div>
+
+    </div>
+
+    <div class="site-header-right">
+      <div id="site-header-right-text" class="feature-zone  ">
+
+
+        <div id="TextFeature_bbdae35d4e9a4a929f5b4d484504173c" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  custom-link-active-wrapper header-custom-link-wrapper cms-tag-feature-text-wrapper cms-tag-feature-header-wrapper " feature-data-tag="text header ">
+        <div id="textfeature_bbdae35d4e9a4a929f5b4d484504173c" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_bbdae35d4e9a4a929f5b4d484504173c" class="cms-feature-datablock cms-text-feature-content custom-link-active header-custom-link cms-tag-feature-text cms-tag-feature-header ">
+                    <p><a href="../inquire/index.html">Inquire</a>&nbsp; <a href="../plan-your-visit/index.html">Visit</a> &nbsp;<a href="../walker-summer-camp/index.html">Summer</a>&nbsp; &nbsp;<a href="https://thewalkerschool.myschoolapp.com/app#login" target="_blank">Walker Web</a></p>
+
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+      <!-- Start serch -->
+      <div class="site-search-wrapper site-search-wrapper">
+        <div class="site-search-icon">
+          <i class="site-icon-search"></i>
+        </div>
+      </div>
+      <!-- End serch -->
+
+      <!-- Start Toggle menu -->
+      <div class="site-menu-toggle" title="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- End Toggle menu -->
+    </div>
+  </div>
+
+  <!-- Classes for differet search options site-search-option, site-search-option1 and site-search-option2 -->
+  <div class="site-search-block site-search-option2">
+    <div class="site-search-data">
+    <input type="text" class="site-search-input" placeholder="Keyword" onkeypress="onSearchTermPressEnter(event, this, '/Search/Index?branchID=1&amp;searchTerms=')">
+    <button title="Search" onclick="onSearchTerm(this, '/Search/Index?branchID=1&amp;searchTerms=')" class="site-search-button">Search</button>
+</div>
+
+
+  </div>
+
+  <!-- Start navigation menu -->
+  <div class="site-navigation-wrapper">
+    <div class="site-container">
+      <div class="site-navigation-block">
+
+        <div class="site-navigation-block--column-one">
+          <div class="site-nav-believe-wrapper">
+            <div id="site-navigation-title" class="feature-zone  ">
+
+
+        <div id="TextFeature_32301787633f4ac7b661448b1b099c5a" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  cms-tag-feature-text-wrapper cms-tag-feature-header-wrapper " feature-data-tag="text header ">
+        <div id="textfeature_32301787633f4ac7b661448b1b099c5a" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_32301787633f4ac7b661448b1b099c5a" class="cms-feature-datablock cms-text-feature-content cms-tag-feature-text cms-tag-feature-header ">
+                    <p><var><span style="color:#ffffff;">We Believe</span></var></p>
+
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+            <nav id="site-navigation" class="site-navigation">
+    <ul class="site-nav-block">
+                    <li class="site-nav-item site-nav-first-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../we-value/index.html">About Us</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../we-value/index.html">We Value</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../history/index.html">History</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../head-of-school/index.html">Head of School</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../board-of-trustees/index.html">Board of Trustees</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../senior-leaders/index.html">Senior Leaders</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../diversity-and-belonging/index.html">Diversity and Belonging</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../strategic-plan/index.html">Strategic Plan</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../student-life/index.html">Student Life</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-active site-nav-active-path site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="index.html">Admission</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../why-walker/index.html">Why The Walker School</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../inquire/index.html">Inquire</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../admission-process/index.html">Admission Process</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../plan-your-visit/index.html">Plan Your Visit</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../tuition-and-financial-aid/index.html">Tuition and Financial Assistance</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../international-students/index.html">International Students</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../transportation/index.html">Transportation</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../brochures/index.html">Brochures</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../frequently-asked-questions/index.html">Frequently Asked Questions</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../community/index.html">Community</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../walker-summer-camp/index.html">Walker Summer Camp</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../community-service/index.html">Community Service</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../campus-dining/index.html">Campus Dining</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-warehouse/index.html">Wolverine Warehouse</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2 site-nav-child  custom-nav-">
+                            <a class="site-subnav-link" href="../parent-volunteer-groups/index.html">Parent Volunteer Groups</a>
+                            <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level3">
+                        <li class="site-subnav-item level3  custom-nav-">
+                            <a class="site-subnav-link" href="../walker-school-association/index.html">Walker School Association</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level3  custom-nav-">
+                            <a class="site-subnav-link" href="../patrons-of-the-arts/index.html">Patrons of the Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level3 site-nav-child  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-club/index.html">Wolverine Club</a>
+                            <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level4">
+                        <li class="site-subnav-item level4  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-club-sponsors/index.html">Wolverine Club Sponsors</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                        </li>
+            </ul>
+        </div>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../support-walker/index.html">Support Walker</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../the-walker-fund/index.html">The Walker Fund</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../matching-gifts/index.html">Matching Gifts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../georgia-goal/index.html">Georgia GOAL</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../make-a-gift/index.html">Make A Gift</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../primary-school/index.html">Primary School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-primary-school-unique/index.html">What makes the Primary School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../primary-school-curriculum/index.html">Primary School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../extended-day-program-and-after-school-activities/index.html">Extended Day Program and After-School Activities</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../lower-school/index.html">Lower School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-lower-school-unique/index.html">What makes the Lower School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../lower-school-curriculum/index.html">Lower School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../extended-day-program-and-after-school-activities/index.html">Extended Day Program and After School Activities </a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../new-avenues/index.html">New Avenues</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-new-avenues-dyslexia-program-unique/index.html">What makes the New Avenues Dyslexia Program Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../new-avenues-dyslexia-program-curriculum/index.html">New Avenues Dyslexia Program Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../program-visiting-and-applying/index.html">Visit and Apply</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../new-avenues-faculty/index.html">New Avenues Faculty</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../middle-school/index.html">Middle School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-middle-school-unique/index.html">What makes the Middle School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../middle-school-curriculum/index.html">Middle School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../upper-school/index.html">Upper School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-upper-school-unique/index.html">What Makes the Upper School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../upper-school-curriculum/index.html">Upper School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../college-counseling/index.html">College Counseling</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../athletics/index.html">Athletics</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../strength-and-conditioning/index.html">Strength and Conditioning</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sports-medicine/index.html">Sports Medicine</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../summer-workouts-and-camps/index.html">Summer Workouts and Camps</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../alumni-athletes/index.html">Alumni Athletes</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../teams-and-schedules/index.html">Teams and Schedules</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../upcoming-games/index.html">Upcoming Games</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../academics/index.html">Academics</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../technology/index.html">Technology </a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../social-studies/index.html">Social Studies</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../math/index.html">Math</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../english/index.html">English</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../world-languages/index.html">World Languages</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../libraries/index.html">Libraries</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../science/index.html">Science</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../academics-college-counseling/index.html">College Counseling</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../student-support/index.html">Student Support</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../arts/index.html">Arts</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../visual-arts/index.html">Visual Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../performing-arts/index.html">Performing Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../technical-arts/index.html">Technical Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item site-nav-last-item level1 site-nav-child custom-nav-hide-in-nav custom-styleguide-page hide-left-column">
+                        <a class="site-nav-link" href="../web/account/login/returnURL%3D/style-guide-and-templates.html">Style Guide and Templates</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---base-components/index.html">SG - Base Components</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---content-with-sidebar/index.html">SG - Content-with-Sidebar</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---home/index.html">SG - Home</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---schools/index.html">SG - Schools</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---admissions/index.html">SG - Admissions</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---giving/index.html">SG - Giving</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---careers/index.html">SG - Careers</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---aaa/index.html">SG - AAA</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---news/index.html">SG - News</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-hide-in-nav custom-styleguide-page hide-left-column">
+                            <a class="site-subnav-link" href="../sg---news-content/index.html">SG - News Content</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+    </ul>
+</nav>
+
+
+          </div>
+          
+          <div class="site-nav-school-wrapper">
+            <div id="site-navigation-title-two" class="feature-zone  ">
+
+
+        <div id="TextFeature_dc1ea389821540caa2802f12e5381335" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  cms-tag-feature-text-wrapper cms-tag-feature-header-wrapper " feature-data-tag="text header ">
+        <div id="textfeature_dc1ea389821540caa2802f12e5381335" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_dc1ea389821540caa2802f12e5381335" class="cms-feature-datablock cms-text-feature-content cms-tag-feature-text cms-tag-feature-header ">
+                    <p><var><span style="color:#ffffff;">DIVISIONS</span></var></p>
+
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+            <nav id="site-navigation" class="site-navigation">
+    <ul class="site-nav-block">
+                    <li class="site-nav-item site-nav-first-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../we-value/index.html">About Us</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../we-value/index.html">We Value</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../history/index.html">History</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../head-of-school/index.html">Head of School</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../board-of-trustees/index.html">Board of Trustees</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../senior-leaders/index.html">Senior Leaders</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../diversity-and-belonging/index.html">Diversity and Belonging</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../strategic-plan/index.html">Strategic Plan</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../student-life/index.html">Student Life</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-active site-nav-active-path site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="index.html">Admission</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../why-walker/index.html">Why The Walker School</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../inquire/index.html">Inquire</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../admission-process/index.html">Admission Process</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../plan-your-visit/index.html">Plan Your Visit</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../tuition-and-financial-aid/index.html">Tuition and Financial Assistance</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../international-students/index.html">International Students</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../transportation/index.html">Transportation</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../brochures/index.html">Brochures</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../frequently-asked-questions/index.html">Frequently Asked Questions</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../community/index.html">Community</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../walker-summer-camp/index.html">Walker Summer Camp</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../community-service/index.html">Community Service</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../campus-dining/index.html">Campus Dining</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-warehouse/index.html">Wolverine Warehouse</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2 site-nav-child  custom-nav-">
+                            <a class="site-subnav-link" href="../parent-volunteer-groups/index.html">Parent Volunteer Groups</a>
+                            <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level3">
+                        <li class="site-subnav-item level3  custom-nav-">
+                            <a class="site-subnav-link" href="../walker-school-association/index.html">Walker School Association</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level3  custom-nav-">
+                            <a class="site-subnav-link" href="../patrons-of-the-arts/index.html">Patrons of the Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level3 site-nav-child  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-club/index.html">Wolverine Club</a>
+                            <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level4">
+                        <li class="site-subnav-item level4  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-club-sponsors/index.html">Wolverine Club Sponsors</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                        </li>
+            </ul>
+        </div>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../support-walker/index.html">Support Walker</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../the-walker-fund/index.html">The Walker Fund</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../matching-gifts/index.html">Matching Gifts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../georgia-goal/index.html">Georgia GOAL</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../make-a-gift/index.html">Make A Gift</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../primary-school/index.html">Primary School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-primary-school-unique/index.html">What makes the Primary School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../primary-school-curriculum/index.html">Primary School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../extended-day-program-and-after-school-activities/index.html">Extended Day Program and After-School Activities</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../lower-school/index.html">Lower School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-lower-school-unique/index.html">What makes the Lower School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../lower-school-curriculum/index.html">Lower School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../extended-day-program-and-after-school-activities/index.html">Extended Day Program and After School Activities </a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../new-avenues/index.html">New Avenues</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-new-avenues-dyslexia-program-unique/index.html">What makes the New Avenues Dyslexia Program Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../new-avenues-dyslexia-program-curriculum/index.html">New Avenues Dyslexia Program Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../program-visiting-and-applying/index.html">Visit and Apply</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../new-avenues-faculty/index.html">New Avenues Faculty</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../middle-school/index.html">Middle School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-middle-school-unique/index.html">What makes the Middle School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../middle-school-curriculum/index.html">Middle School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../upper-school/index.html">Upper School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-upper-school-unique/index.html">What Makes the Upper School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../upper-school-curriculum/index.html">Upper School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../college-counseling/index.html">College Counseling</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../athletics/index.html">Athletics</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../strength-and-conditioning/index.html">Strength and Conditioning</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sports-medicine/index.html">Sports Medicine</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../summer-workouts-and-camps/index.html">Summer Workouts and Camps</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../alumni-athletes/index.html">Alumni Athletes</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../teams-and-schedules/index.html">Teams and Schedules</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../upcoming-games/index.html">Upcoming Games</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../academics/index.html">Academics</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../technology/index.html">Technology </a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../social-studies/index.html">Social Studies</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../math/index.html">Math</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../english/index.html">English</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../world-languages/index.html">World Languages</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../libraries/index.html">Libraries</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../science/index.html">Science</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../academics-college-counseling/index.html">College Counseling</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../student-support/index.html">Student Support</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../arts/index.html">Arts</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../visual-arts/index.html">Visual Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../performing-arts/index.html">Performing Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../technical-arts/index.html">Technical Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item site-nav-last-item level1 site-nav-child custom-nav-hide-in-nav custom-styleguide-page hide-left-column">
+                        <a class="site-nav-link" href="../web/account/login/returnURL%3D/style-guide-and-templates.html">Style Guide and Templates</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---base-components/index.html">SG - Base Components</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---content-with-sidebar/index.html">SG - Content-with-Sidebar</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---home/index.html">SG - Home</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---schools/index.html">SG - Schools</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---admissions/index.html">SG - Admissions</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---giving/index.html">SG - Giving</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---careers/index.html">SG - Careers</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---aaa/index.html">SG - AAA</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---news/index.html">SG - News</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-hide-in-nav custom-styleguide-page hide-left-column">
+                            <a class="site-subnav-link" href="../sg---news-content/index.html">SG - News Content</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+    </ul>
+</nav>
+
+
+          </div>
+
+          <div class="site-nav-activities-wrapper">
+            <div id="site-navigation-title-three" class="feature-zone  ">
+
+
+        <div id="TextFeature_5a826c778ec34ee3b5b106df668a4a70" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  cms-tag-feature-text-wrapper cms-tag-feature-header-wrapper " feature-data-tag="text header ">
+        <div id="textfeature_5a826c778ec34ee3b5b106df668a4a70" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_5a826c778ec34ee3b5b106df668a4a70" class="cms-feature-datablock cms-text-feature-content cms-tag-feature-text cms-tag-feature-header ">
+                    <p><var><span style="color:#ffffff;">Activities</span></var></p>
+
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+            <nav id="site-navigation" class="site-navigation">
+    <ul class="site-nav-block">
+                    <li class="site-nav-item site-nav-first-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../we-value/index.html">About Us</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../we-value/index.html">We Value</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../history/index.html">History</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../head-of-school/index.html">Head of School</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../board-of-trustees/index.html">Board of Trustees</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../senior-leaders/index.html">Senior Leaders</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../diversity-and-belonging/index.html">Diversity and Belonging</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../strategic-plan/index.html">Strategic Plan</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../student-life/index.html">Student Life</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-active site-nav-active-path site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="index.html">Admission</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../why-walker/index.html">Why The Walker School</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../inquire/index.html">Inquire</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../admission-process/index.html">Admission Process</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../plan-your-visit/index.html">Plan Your Visit</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../tuition-and-financial-aid/index.html">Tuition and Financial Assistance</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../international-students/index.html">International Students</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../transportation/index.html">Transportation</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../brochures/index.html">Brochures</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../frequently-asked-questions/index.html">Frequently Asked Questions</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../community/index.html">Community</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../walker-summer-camp/index.html">Walker Summer Camp</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../community-service/index.html">Community Service</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../campus-dining/index.html">Campus Dining</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-warehouse/index.html">Wolverine Warehouse</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2 site-nav-child  custom-nav-">
+                            <a class="site-subnav-link" href="../parent-volunteer-groups/index.html">Parent Volunteer Groups</a>
+                            <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level3">
+                        <li class="site-subnav-item level3  custom-nav-">
+                            <a class="site-subnav-link" href="../walker-school-association/index.html">Walker School Association</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level3  custom-nav-">
+                            <a class="site-subnav-link" href="../patrons-of-the-arts/index.html">Patrons of the Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level3 site-nav-child  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-club/index.html">Wolverine Club</a>
+                            <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level4">
+                        <li class="site-subnav-item level4  custom-nav-">
+                            <a class="site-subnav-link" href="../wolverine-club-sponsors/index.html">Wolverine Club Sponsors</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                        </li>
+            </ul>
+        </div>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-">
+                        <a class="site-nav-link" href="../support-walker/index.html">Support Walker</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../the-walker-fund/index.html">The Walker Fund</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../matching-gifts/index.html">Matching Gifts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../georgia-goal/index.html">Georgia GOAL</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../make-a-gift/index.html">Make A Gift</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../primary-school/index.html">Primary School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-primary-school-unique/index.html">What makes the Primary School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../primary-school-curriculum/index.html">Primary School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../extended-day-program-and-after-school-activities/index.html">Extended Day Program and After-School Activities</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../lower-school/index.html">Lower School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-lower-school-unique/index.html">What makes the Lower School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../lower-school-curriculum/index.html">Lower School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../extended-day-program-and-after-school-activities/index.html">Extended Day Program and After School Activities </a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../new-avenues/index.html">New Avenues</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-new-avenues-dyslexia-program-unique/index.html">What makes the New Avenues Dyslexia Program Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../new-avenues-dyslexia-program-curriculum/index.html">New Avenues Dyslexia Program Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../program-visiting-and-applying/index.html">Visit and Apply</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../new-avenues-faculty/index.html">New Avenues Faculty</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../middle-school/index.html">Middle School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-middle-school-unique/index.html">What makes the Middle School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../middle-school-curriculum/index.html">Middle School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-school">
+                        <a class="site-nav-link" href="../upper-school/index.html">Upper School</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../what-makes-the-upper-school-unique/index.html">What Makes the Upper School Unique</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../upper-school-curriculum/index.html">Upper School Curriculum</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../college-counseling/index.html">College Counseling</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../athletics/index.html">Athletics</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../strength-and-conditioning/index.html">Strength and Conditioning</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sports-medicine/index.html">Sports Medicine</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../summer-workouts-and-camps/index.html">Summer Workouts and Camps</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../alumni-athletes/index.html">Alumni Athletes</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../teams-and-schedules/index.html">Teams and Schedules</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-site-custom-integration-theme">
+                            <a class="site-subnav-link" href="../upcoming-games/index.html">Upcoming Games</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../academics/index.html">Academics</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../technology/index.html">Technology </a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../social-studies/index.html">Social Studies</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../math/index.html">Math</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../english/index.html">English</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../world-languages/index.html">World Languages</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../libraries/index.html">Libraries</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../science/index.html">Science</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../academics-college-counseling/index.html">College Counseling</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../student-support/index.html">Student Support</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item level1 site-nav-child custom-nav-site-nav-activities">
+                        <a class="site-nav-link" href="../arts/index.html">Arts</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../visual-arts/index.html">Visual Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../performing-arts/index.html">Performing Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../technical-arts/index.html">Technical Arts</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+                    <li class="site-nav-item site-nav-last-item level1 site-nav-child custom-nav-hide-in-nav custom-styleguide-page hide-left-column">
+                        <a class="site-nav-link" href="../web/account/login/returnURL%3D/style-guide-and-templates.html">Style Guide and Templates</a>
+                        <span class="site-nav-linktext site-nav-expand"></span>
+        <div class="site-subnav-wrapper">
+            <ul class="site-subnav-block site-subnav-level2">
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---base-components/index.html">SG - Base Components</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---content-with-sidebar/index.html">SG - Content-with-Sidebar</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---home/index.html">SG - Home</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---schools/index.html">SG - Schools</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---admissions/index.html">SG - Admissions</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---giving/index.html">SG - Giving</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---careers/index.html">SG - Careers</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---aaa/index.html">SG - AAA</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-">
+                            <a class="site-subnav-link" href="../sg---news/index.html">SG - News</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+                        <li class="site-subnav-item level2  custom-nav-hide-in-nav custom-styleguide-page hide-left-column">
+                            <a class="site-subnav-link" href="../sg---news-content/index.html">SG - News Content</a>
+                            <span class="site-nav-linktext"></span>
+                        </li>
+            </ul>
+        </div>
+                    </li>
+    </ul>
+</nav>
+
+
+          </div>
+
+          <div class="site-navigation-block-quicklinks">
+            <div id="site-navigation-title-four" class="feature-zone no-features ">
+
+</div>
+
+            <div id="site-navigation-title-five" class="feature-zone  ">
+
+
+        <div id="TextFeature_36f69e220f364c81922c3ab16a743084" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-feature-bottom-no-space-wrapper custom-link-active-wrapper header-custom-link-wrapper cms-tag-feature-text-wrapper cms-tag-feature-header-wrapper " feature-data-tag="text header ">
+        <div id="textfeature_36f69e220f364c81922c3ab16a743084" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_36f69e220f364c81922c3ab16a743084" class="cms-feature-datablock cms-text-feature-content site-feature-bottom-no-space custom-link-active header-custom-link cms-tag-feature-text cms-tag-feature-header ">
+                    <p><var><span style="color:#ffffff;">Other</span></var></p>
+
+<p style="text-align: justify;"><a href="../alumni/index.html">Alumni</a><a href="../school-calendar/index.html">School Calendar</a><a href="../careers/index.html">Careers</a><a href="../news/index.html">Latest News</a><a href="../wolverine-warehouse/index.html">Wolverine Warehouse</a><a href="../map-and-directions/index.html">Map and Directions</a><a href="https://thewalkerschool.myschoolapp.com/app#login" target="_blank">Walker Web</a><a href="https://thewalkerschool.smugmug.com/">Media Gallery</a></p>
+
+<p style="text-align: justify;">&nbsp;</p>
+
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+          </div>
+        </div>
+
+        <div class="site-navigation-block--image">
+          <div id="site-navigation-image" class="feature-zone  ">
+
+
+    <div id="GalleryFeature_1b71bb808ec44c36a8ba598a3dd60f85" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slider-slideshow-wrapper   site-feature-bottom-no-space-wrapper cms-tag-feature-gallery-wrapper cms-tag-feature-header-wrapper " featureid="3611" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery header ">
+
+            <div class="cms-feature-datablock site-slider site-slider-slideshow  site-feature-bottom-no-space cms-tag-feature-gallery cms-tag-feature-header ">
+                <div id="site-slideshow_1b71bb808ec44c36a8ba598a3dd60f85" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/wevalue2-104-Navigation-Image_316.webp?version=638581926013630000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/wevalue2-104-Navigation-Image_316.webp?version=638581926013630000" class="site-slider-image">
+    </div>
+
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_1b71bb808ec44c36a8ba598a3dd60f85').slick({ infinite: false, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 1, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: false, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false });
+                    });
+                </script>
+            </div>
+</div>
+
+
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End navigation menu -->
+</div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Main Area -->
+        <main id="site-main" class="site-main">
+
+            <!-- Start Breadcrumbs -->
+            <div class="site-breadcrumbs-wrapper" hidden="">
+                <div class="site-container">
+                    <ul class="site-breadcrum">
+        <li class="site-breadcrumbs-item">
+            <a class="site-breadcrumbs-link" href="../index.html">
+                Home
+            </a>
+        </li>
+        <li class="site-breadcrumbs-item site-breadcrumbs-active">
+            Admission
+        </li>
+</ul>
+                </div>
+            </div>
+            <!-- End Breadcrumbs -->
+
+            <!-- Start main wrapper -->
+            <div class="site-main-wrapper">
+                <div class="site-scroller-wrapper" id="site-scroller-wrapper">
+                  <div id="MainContent" class="feature-zone  ">
+
+
+    <div id="GalleryFeature_b203e6e9a2854de0be63ceeae428dbdd" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slide-caption-dt-mc-wrapper site-slider-slideshow-wrapper   site-color-white-wrapper site-custom-banner-size-150-wrapper site-custom-border-bottom-wrapper cms-tag-feature-gallery-wrapper cms-tag-feature-admissions-wrapper " featureid="2823" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery admissions ">
+
+            <div class="cms-feature-datablock site-slider site-slide-caption-dt-mc site-slider-slideshow  site-color-white site-custom-banner-size-150 site-custom-border-bottom cms-tag-feature-gallery cms-tag-feature-admissions ">
+                <div id="site-slideshow_b203e6e9a2854de0be63ceeae428dbdd" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/tws_fall24283__1_-640.jpg?version=638622647643500000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/tws_fall24283__1_-640.jpg?version=638622647643500000" class="site-slider-image" title="" alt="smiling-kids-admission">
+    </div>
+
+    <div class="site-slider-caption">
+        <div class="site-slider-caption-block">
+            <div class="site-container">
+                <div class="site-slider-capton-data">
+                    <h2>ADMISSION</h2>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_b203e6e9a2854de0be63ceeae428dbdd').slick({ infinite: false, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 1, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: false, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false });
+                    });
+                </script>
+            </div>
+</div>
+
+
+
+        <div id="TextFeature_4317efe9796f413e9ec1cfca9ebd160a" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-custom-red-header-wrapper cms-tag-feature-text-wrapper cms-tag-feature-admissions-wrapper " feature-data-tag="text admissions ">
+        <div id="textfeature_4317efe9796f413e9ec1cfca9ebd160a" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_4317efe9796f413e9ec1cfca9ebd160a" class="cms-feature-datablock cms-text-feature-content site-custom-red-header cms-tag-feature-text cms-tag-feature-admissions ">
+                    <p><var>#onewalker</var></p>
+
+<h2>WELCOME TO WALKER!</h2>
+
+<p><strong>We are a PK3-Grade 12 college-preparatory, independent school in Marietta, Georgia.</strong></p>
+
+<p>We are committed to providing your family with an authentic, in-depth understanding of Walker. You will have the opportunity to engage with our Admission team, our administrators and faculty, our students and our parent body. Hearing from a multitude of perspectives will help you develop a deeper understanding of our community.&nbsp;</p>
+
+<p><a class="site-button-primary" href="../inquire/index.html">Inquire</a> <a class="site-button-secondary" href="https://www.ravenna-hub.com/login">Apply</a></p>
+
+                </div>
+        </div>
+    </div>
+
+
+
+    <div id="GalleryFeature_b2ad798e195746168963c5ad61df956b" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slider-slideshow-wrapper site-multi-slide-slider-wrapper   site-custom-image-grid-wrapper cms-tag-feature-gallery-wrapper " featureid="2825" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery ">
+
+            <div class="cms-feature-datablock site-slider site-slider-slideshow site-multi-slide-slider  site-custom-image-grid cms-tag-feature-gallery ">
+                <div id="site-slideshow_b2ad798e195746168963c5ad61df956b" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Gallery_8-407-Experience-Grid_1369.webp?version=638614979229630000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Gallery_8-407-Experience-Grid_1369.webp?version=638614979229630000" class="site-slider-image" title="" alt="Student holding up a paintbrush and smiling">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Gallery_3-408-Experience-Grid_1373.webp?version=638614979232530000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Gallery_3-408-Experience-Grid_1373.webp?version=638614979232530000" class="site-slider-image" title="" alt="Students walking up and down stairs">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridlowerschool-689.png?version=638622787593600000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridlowerschool-689.png?version=638622787593600000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridupperschool-687.png?version=638622787594200000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridupperschool-687.png?version=638622787594200000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Gallery_2-406-Experience-Grid_1364.webp?version=638614979230400000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Gallery_2-406-Experience-Grid_1364.webp?version=638614979230400000" class="site-slider-image" title="" alt="Student at table smiling widely">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/soccergirlscelebrating-683-Experience-Grid_2371.webp?version=638622787592870000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/soccergirlscelebrating-683-Experience-Grid_2371.webp?version=638622787592870000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridkaylin-684.png?version=638622787595000000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridkaylin-684.png?version=638622787595000000" class="site-slider-image">
+    </div>
+
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_b2ad798e195746168963c5ad61df956b').slick({ infinite: true, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 3, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: true, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false, responsive: [{breakpoint: 600,settings: {slidesToShow:1, centerPadding: '0px', vertical: false, verticalSwiping: false}}] });
+                    });
+                </script>
+            </div>
+</div>
+
+
+
+    <div id="GalleryFeature_2c9f06b9c1d04db28413f1dae2e98ea6" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slide-caption-dt-mc-wrapper site-slider-slideshow-wrapper site-multi-slide-slider-wrapper   site-mobile-hide-wrapper site-custom-image-grid-wrapper site-custom-grid-reverse-wrapper cms-tag-feature-gallery-wrapper " featureid="2826" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery ">
+
+            <div class="cms-feature-datablock site-slider site-slide-caption-dt-mc site-slider-slideshow site-multi-slide-slider  site-mobile-hide site-custom-image-grid site-custom-grid-reverse cms-tag-feature-gallery ">
+                <div id="site-slideshow_2c9f06b9c1d04db28413f1dae2e98ea6" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/jan-385-Experience-Grid_1302.webp?version=638612349898470000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/jan-385-Experience-Grid_1302.webp?version=638612349898470000" class="site-slider-image" title="" alt="Teacher helping student at a table">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridus-688-optimized.webp?version=638622787596730000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridus-688-optimized.webp?version=638622787596730000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridsoftball-691-optimized.webp?version=638622787597430000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridsoftball-691-optimized.webp?version=638622787597430000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/tiffanyklein-386-Experience-Grid_1301.webp?version=638612349899470000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/tiffanyklein-386-Experience-Grid_1301.webp?version=638612349899470000" class="site-slider-image" title="" alt="Teacher smiling down at two students">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegrid-686-optimized.webp?version=638622787598070000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegrid-686-optimized.webp?version=638622787598070000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/pamellakelly-388-Experience-Grid_1298.webp?version=638612349900830000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/pamellakelly-388-Experience-Grid_1298.webp?version=638612349900830000" class="site-slider-image" title="" alt="Teacher outside with class">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/kimmoore-389-Experience-Grid_1299.webp?version=638612349901770000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/kimmoore-389-Experience-Grid_1299.webp?version=638612349901770000" class="site-slider-image" title="" alt="Teacher helping student with craft paper">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridprimaryschool-690.png?version=638622787596070000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridprimaryschool-690.png?version=638622787596070000" class="site-slider-image">
+    </div>
+
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_2c9f06b9c1d04db28413f1dae2e98ea6').slick({ infinite: true, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 3, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: true, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false, responsive: [{breakpoint: 600,settings: {slidesToShow:1, centerPadding: '0px', vertical: false, verticalSwiping: false}}] });
+                    });
+                </script>
+            </div>
+</div>
+
+
+
+    <div id="GalleryFeature_c1280dcb6e7649b4add592290e31f75d" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slider-slideshow-wrapper site-multi-slide-slider-wrapper   site-mobile-hide-wrapper site-custom-image-grid-wrapper cms-tag-feature-gallery-wrapper " featureid="2827" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery ">
+
+            <div class="cms-feature-datablock site-slider site-slider-slideshow site-multi-slide-slider  site-mobile-hide site-custom-image-grid cms-tag-feature-gallery ">
+                <div id="site-slideshow_c1280dcb6e7649b4add592290e31f75d" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Gallery_7-413-Experience-Grid_1391.webp?version=638614979234730000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Gallery_7-413-Experience-Grid_1391.webp?version=638614979234730000" class="site-slider-image" title="" alt="Student athlete running with American football">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Gallery_6-412-Experience-Grid_1390.webp?version=638614979235700000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Gallery_6-412-Experience-Grid_1390.webp?version=638614979235700000" class="site-slider-image" title="" alt="Student performance of Wicked">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Gallery_10-411-Experience-Grid_1392.webp?version=638614979236370000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Gallery_10-411-Experience-Grid_1392.webp?version=638614979236370000" class="site-slider-image" title="" alt="Students building a tower">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridclassroom-693.png?version=638622787599130000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridclassroom-693.png?version=638622787599130000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridpshighfive-692.png?version=638622787599770000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridpshighfive-692.png?version=638622787599770000" class="site-slider-image">
+    </div>
+
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/admissionexperiencegridben-685.png?version=638622787600400000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/admissionexperiencegridben-685.png?version=638622787600400000" class="site-slider-image">
+    </div>
+
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_c1280dcb6e7649b4add592290e31f75d').slick({ infinite: true, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 3, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: true, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false, responsive: [{breakpoint: 600,settings: {slidesToShow:1, centerPadding: '0px', vertical: false, verticalSwiping: false}}] });
+                    });
+                </script>
+            </div>
+</div>
+
+
+
+        <div id="TextFeature_fa1bca12098c4ed59f43735e012e363d" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-custom-red-header-wrapper cms-tag-feature-text-wrapper cms-tag-feature-admissions-wrapper " feature-data-tag="text admissions ">
+        <div id="textfeature_fa1bca12098c4ed59f43735e012e363d" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_fa1bca12098c4ed59f43735e012e363d" class="cms-feature-datablock cms-text-feature-content site-custom-red-header cms-tag-feature-text cms-tag-feature-admissions ">
+                    <p><var>#onewalker</var></p>
+
+<h2>WHY THE WALKER SCHOOL?</h2>
+
+<p><strong>At Walker, we respect the infinite worth of everyone. Through the enthusiastic pursuit of excellence, our school provides clear goals and high expectations for student achievement within a safe and supportive learning environment.</strong></p>
+
+<p>Students discover who they are and develop the skills and flexibility that are necessary to thrive in a changing world. Students, faculty and parents feel a sense of belonging and develop a perspective that embraces diversity and enhances global awareness.</p>
+
+<p><a class="site-button-primary" href="../inquire/index.html">Inquire</a> <a class="site-button-secondary" href="https://www.ravenna-hub.com/login">Apply</a></p>
+
+                </div>
+        </div>
+    </div>
+
+
+
+    <div id="GalleryFeature_9d68c7d1577f4321ac7e57a48c655c41" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slider-slideshow-wrapper   site-custom-full-banner-wrapper cms-tag-feature-gallery-wrapper cms-tag-feature-admissions-wrapper " featureid="2837" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery admissions ">
+
+            <div class="cms-feature-datablock site-slider site-slider-slideshow  site-custom-full-banner cms-tag-feature-gallery cms-tag-feature-admissions ">
+                <div id="site-slideshow_9d68c7d1577f4321ac7e57a48c655c41" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/homecoming_updated2-965.jpg?version=638627149933230000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/homecoming_updated2-965.jpg?version=638627149933230000" class="site-slider-image">
+    </div>
+
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_9d68c7d1577f4321ac7e57a48c655c41').slick({ infinite: false, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 1, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: false, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false });
+                    });
+                </script>
+            </div>
+</div>
+
+
+
+        <div id="TextFeature_ef65d24e4e59434b9a668a5b53b5e3f5" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-custom-red-header-wrapper cms-tag-feature-text-wrapper cms-tag-feature-admissions-wrapper " feature-data-tag="text admissions ">
+        <div id="textfeature_ef65d24e4e59434b9a668a5b53b5e3f5" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_ef65d24e4e59434b9a668a5b53b5e3f5" class="cms-feature-datablock cms-text-feature-content site-custom-red-header cms-tag-feature-text cms-tag-feature-admissions ">
+                    <p><var>#onewalker</var></p>
+
+<h2>FREQUENTLY ASKED QUESTIONS</h2>
+
+<p>&nbsp;</p>
+
+                </div>
+        </div>
+    </div>
+
+
+
+        <div id="TextFeature_985d98f4897943038c495c1bae39c784" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-padding-dt-left-1-wrapper site-padding-dt-right-1-wrapper site-custom-red-header-wrapper cms-tag-feature-text-wrapper cms-tag-feature-admissions-wrapper " feature-data-tag="text admissions ">
+        <div id="textfeature_985d98f4897943038c495c1bae39c784" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_985d98f4897943038c495c1bae39c784" class="cms-feature-datablock cms-text-feature-content site-padding-dt-left-1 site-padding-dt-right-1 site-custom-red-header cms-tag-feature-text cms-tag-feature-admissions ">
+                    <table border="0" cellpadding="10" cellspacing="1" class="site-table-accordion site-table-mobile" style="width:100%;">
+	<tbody>
+		<tr>
+			<th>What is the benefit of an independent school education?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>As an independent school, Walker challenges students to meet high academic expectations and nurtures personal growth. We offer a safe and supportive learning environment, foster a strong sense of community and allow for individualized attention from teachers. Given our size, we offer greater access to a variety of extracurricular activities and provide many opportunities for parent involvement.</p>
+
+			<p>You can find more information about the value of an independent school education on the <strong><a href="https://nais.org/parents/#:~:text=In%20addition%20to%20academics%2C%20independent,artistic%20pursuits%2C%20and%20leadership%20experiences" target="_blank">NAIS</a></strong> website (National Association for Independent Schools).</p>
+			</td>
+		</tr>
+		<tr>
+			<th>How do I apply to The Walker School?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>Learn more about applying to Walker on our <strong><a href="../admission-process/index.html">Admission Process</a></strong> page.&nbsp;</p>
+
+			<p>Learn more about applying to our <strong><a href="../program-visiting-and-applying/index.html">New Avenues Dyslexia Program</a></strong>.</p>
+			</td>
+		</tr>
+		<tr>
+			<th>What are the important dates during admission season?</th>
+		</tr>
+		<tr>
+			<td>
+			<ul>
+				<li><strong>October 1, 2026:</strong> Applications Open</li>
+				<li><strong>February 5, 2027:</strong> Application Deadline</li>
+				<li><strong>February 26, 2027:</strong> Supporting Documents Due</li>
+				<li><strong>April 3, 2027:</strong> Enrollment Decisions Communicated</li>
+			</ul>
+
+			<p><strong>Financial Assistance Application and Supporting Documents Deadlines:</strong></p>
+
+			<ul>
+				<li><strong>October 1, 2026: </strong>Applications Open</li>
+				<li><strong>November 30, 2026:</strong> Current Families</li>
+				<li><strong>February 5, 2027:</strong>&nbsp;New Families</li>
+			</ul>
+
+			<p>We accept late applications, if space is available. Please call or email our Admission Team at <strong>(678) 540-7229</strong> or <strong><a href="../index.html">admission@thewalkerschool.org</a></strong>, if you are applying in March or later.</p>
+			</td>
+		</tr>
+		<tr>
+			<th>Where is the Admission Office located on campus?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>The Admission Office is located in our main building. Visitor parking is designated in the parking lot in front of the main building. Families visiting the Lower School, Middle School and Upper School should check in at the front desk upon arrival. Families touring our Primary School will go directly to a different entrance at 830 Damar Road. Campus Map and Directions can be <a href="../map-and-directions/index.html"><strong>found here</strong></a>.&nbsp;&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<th>How important is standardized testing in the admission process?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>Testing is just one part of the academic credentials. A student’s grades, teacher recommendations, strength of academic program and potential contribution to our community are weighed more heavily than the testing.</p>
+			</td>
+		</tr>
+		<tr>
+			<th>Do you offer financial assistance?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>Yes. The Walker School seeks to enroll a diverse student body, including families of varying socio-economic backgrounds. No applicant should be deterred from applying for admission due to financial constraints. We are committed to a financial assistance program that makes a Walker education available to qualified applicants.</p>
+
+			<p>All financial assistance is based on our assessment of a family’s financial resources. Income and expenses, assets, family size and the number of children attending private schools and colleges are the primary drivers of our assessment. Learn more about affording Walker on our <strong><a href="../tuition-and-financial-aid/index.html">Tuition and Financial Assistance</a> </strong>page.</p>
+			</td>
+		</tr>
+		<tr>
+			<th>What does a day in the life of a Walker student look like?</th>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Primary &amp; Lower School</strong></p>
+
+			<p>Primary School students begin their day at 8 a.m. After unpacking their bag, children enjoy free time in the classroom before moving to the rug for their Morning Meeting. In addition to academic time in the classroom, Primary School students also engage in Music &amp; Movement, Art, Science, Library, T.E.C. Time (Technology, Engineering, &amp; Creativity - P.K. and K), and Spanish classes several times a week. Our youngest Wolverines have the opportunity to travel to different classrooms and experience a variety of teaching styles. We have a full-time counselor dedicated to our Primary School building, who thoughtfully plans lessons for each classroom weekly. Children eat lunch in a lunchroom and have several opportunities to play on the playground every day. The school day ends at 2:45 p.m. Our Extended Day Program (EDP) is available until 6 p.m. During EDP, families may choose to register their children for additional extracurricular activities – everything from yoga to robotics.</p>
+
+			<p>Lower School students begin their day at 8 a.m. After unpacking and hearing the morning announcements led by fifth graders, students gather with their homeroom class for Morning Meeting. This is a time to build classroom community between teachers and students. In addition to academic time in the classroom, Lower School students also engage in Art, P.E., Science, Music, Library, Technology, Spanish, and Innovation Lab several times a week. We have a full-time counselor dedicated to our Lower School building, who thoughtfully plans guidance lessons and meets with each classroom on a monthly basis. Children eat lunch in Gatti Hall and have a blast on the playground, where they can enjoy quiet in the garden, play Gaga ball, or just run around and have fun! The school day ends at 2:30 p.m. Our Extended Day Program (EDP) is available until 6 p.m. In addition to EDP, families may register their children for extracurricular activities- everything from yoga to robotics.</p>
+
+			<p><a href="https://drive.google.com/file/d/1p11oa_erXyVHg65MgrDueqvQKdOKCDFu/view?usp=drive_link" target="_blank">Kindergarten Schedule</a><br>
+			<a href="https://drive.google.com/file/d/10zxPrvTjnFyBhyMrK-mxzqsDE5mZQxtD/view?usp=drive_link" target="_blank">3rd Grade Weekly Schedule</a><br>
+			<a href="https://drive.google.com/file/d/1t9Q5TB4NWAcvENL5DqwJ1REcYWgKuxqD/view?usp=drive_link" target="_blank">New Avenues 3rd Grade Weekly Schedule</a></p>
+
+			<p><strong>Middle &amp; Upper School</strong></p>
+
+			<p>Our 7-day rotating schedule reflects Walker’s desire to put the needs of our students first. Being able to see our students at different times of day on different days of the week ensures that we are able to plan lessons that tackle more difficult concepts during peak learning times; even out instructional time across all classes; and minimize the impact of absences due to illness, field trips, fine arts activities or athletic competitions on a single class.</p>
+
+			<p><a href="https://drive.google.com/file/d/1rOvxnHx-N1MxmBJRPzWmjABnoVApBvPH/view?usp=drive_link" target="_blank">Sample 6th Grade Schedule</a><br>
+			<a href="https://drive.google.com/file/d/1j7vqiqovP4ZTr7Yj5d0xDVPQ9fZq30W-/view?usp=drive_link" target="_blank">Sample 8th Grade Schedule</a><br>
+			<a href="https://drive.google.com/file/d/162S1CcjMOHa1BiKy8iY-zmx7Vsj__Nuy/view?usp=drive_link" target="_blank">Sample 9th Grade Schedule</a><br>
+			<a href="https://drive.google.com/file/d/117W3e8QhqguREU42uMdpjWyCa79B42pd/view?usp=drive_link" target="_blank">Sample 10th Grade Schedule</a></p>
+			</td>
+		</tr>
+		<tr>
+			<th>Do you offer advanced courses?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>We offer 26 Advanced Placement courses, 10 Honors courses and five post-AP Advanced Topics courses across all disciplines, and three&nbsp;<strong><a href="../upper-school-curriculum/index.html">Concentrations</a></strong>.</p>
+			</td>
+		</tr>
+		<tr>
+			<th>Can I attend athletic events and arts performances as a prospective parent?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>Absolutely! We recommend coming to see our students in action. <a href="../school-calendar/index.html"><strong>Here is our Calendar of Upcoming Events</strong>.</a></p>
+			</td>
+		</tr>
+		<tr>
+			<th>Do you offer an after-school program?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>Yes, we offer an after-school program.</p>
+
+			<p>For Primary and Lower School students: There is an <strong><a href="../extended-day-program-and-after-school-activities/index.html">Extended Day Program</a></strong> for an additional fee from the end of the school day until 6 p.m. Families can also register their child for a <a href="../extended-day-program-and-after-school-activities/index.html"><strong>specific activity</strong>.</a></p>
+
+			<p>For Middle School students: There is adult supervision provided for Middle School students in the library until 6 p.m. at no additional cost.</p>
+			</td>
+		</tr>
+		<tr>
+			<th>Do you provide transportation to and from school?</th>
+		</tr>
+		<tr>
+			<td>
+			<p>We offer two-way bus service with multiple pick-up and drop-off locations in metro Atlanta. We also consider requests to add stops in areas of growth. Please note that bus routes are not always the same from one year to the next and will be scheduled as needed. Transportation availability, forms and questions should be directed to <strong><a href="mailto:busing@thewalkerschool.org">busing@thewalkerschool.org</a></strong>.</p>
+
+			<p>Payment questions should be directed to <strong><a href="mailto:billing@thewalkerschool.org">billing@thewalkerschool.org</a></strong>. Busing is reserved on a first-come, first-serve basis.</p>
+
+			<p>If your child is requesting a different stop or needs to have a friend ride the bus with them, please remember to email <strong><a href="mailto:busing@thewalkerschool.org">busing@thewalkerschool.org</a></strong> for approval. This gives us time to make sure space is available and communicate with the drivers. &nbsp;</p>
+
+			<p>For more information about transportation, check out our <strong><a href="../transportation/index.html">Transportation</a></strong> page.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+                </div>
+        </div>
+    </div>
+
+
+
+        <div id="TextFeature_4d9b1f3e6ac84c96969e772054c08f71" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-custom-red-header-wrapper cms-tag-feature-text-wrapper cms-tag-feature-admissions-wrapper " feature-data-tag="text admissions ">
+        <div id="textfeature_4d9b1f3e6ac84c96969e772054c08f71" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_4d9b1f3e6ac84c96969e772054c08f71" class="cms-feature-datablock cms-text-feature-content site-custom-red-header cms-tag-feature-text cms-tag-feature-admissions ">
+                    <p><var>#onewalker</var></p>
+
+<h2>CONTACT US</h2>
+
+<p><a class="site-button-primary" href="../inquire/index.html">Inquire</a> <a class="site-button-secondary" href="https://www.ravenna-hub.com/login">Apply</a></p>
+
+<p>&nbsp;</p>
+
+                </div>
+        </div>
+    </div>
+
+
+
+    <div id="GalleryFeature_1e02102c917a46eb9665298adba06115" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slider-slideshow-wrapper site-multi-slide-slider-wrapper   site-feature-bottom-no-space-wrapper site-custom-team-gallery-wrapper site-custom-red-header-wrapper cms-tag-feature-gallery-wrapper cms-tag-feature-admissions-wrapper " featureid="2832" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery admissions ">
+
+            <div class="cms-feature-datablock site-slider site-slider-slideshow site-multi-slide-slider  site-feature-bottom-no-space site-custom-team-gallery site-custom-red-header cms-tag-feature-gallery cms-tag-feature-admissions ">
+                <div id="site-slideshow_1e02102c917a46eb9665298adba06115" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_001-805-optimized.webp?version=638624531756630000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_001-805-optimized.webp?version=638624531756630000" class="site-slider-image" title="" alt="">
+    </div>
+
+    <div class="site-slider-caption">
+        <div class="site-slider-caption-block">
+            <div class="site-container">
+                <div class="site-slider-capton-data">
+                    <p><var>Director of Admission</var></p>
+
+<h3>KATHERINE HARRISON</h3>
+
+<p><a class="site-button-primary" href="tel:678-540-7229">Phone</a>&nbsp;<a class="site-button-secondary" href="mailto:katherine.harrison@thewalkerschool.org">email</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_004-804-optimized.webp?version=638624531757370000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_004-804-optimized.webp?version=638624531757370000" class="site-slider-image" title="" alt="">
+    </div>
+
+    <div class="site-slider-caption">
+        <div class="site-slider-caption-block">
+            <div class="site-container">
+                <div class="site-slider-capton-data">
+                    <p><var>Assistant Director of Admission</var></p>
+
+<h3>SARAH MARTIN</h3>
+
+<p><a class="site-button-primary" href="tel:678 581-6894&nbsp;">phone</a>&nbsp;<a class="site-button-secondary" href="mailto:sarah.martin@thewalkerschool.org">email</a>&nbsp;</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_003-803-optimized.webp?version=638624531758130000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_003-803-optimized.webp?version=638624531758130000" class="site-slider-image" title="" alt="">
+    </div>
+
+    <div class="site-slider-caption">
+        <div class="site-slider-caption-block">
+            <div class="site-container">
+                <div class="site-slider-capton-data">
+                    <p><var>Admission Associate</var></p>
+
+<h3>SCOTTY BREWINGTON</h3>
+
+<p><a class="site-button-primary" href="tel:678 540-7229&nbsp;">phone</a>&nbsp;<a class="site-button-secondary" href="mailto:scotty.brewington@thewalkerschool.org">email</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+                            </div>
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_002-806-optimized.webp?version=638624531755600000)" class="site-slide  site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/Admission_Landing_Staff_Gallery_002-806-optimized.webp?version=638624531755600000" class="site-slider-image" title="" alt="">
+    </div>
+
+    <div class="site-slider-caption">
+        <div class="site-slider-caption-block">
+            <div class="site-container">
+                <div class="site-slider-capton-data">
+                    <p><var>Admission Associate</var></p>
+
+<h3>ALISON CARLSON</h3>
+
+<p><a class="site-button-primary" href="tel:678 540-7233">phone</a>&nbsp;<a class="site-button-secondary" href="mailto:alison.carlson@thewalkerschool.org">email</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_1e02102c917a46eb9665298adba06115').slick({ infinite: false, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 4, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: false, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false, responsive: [{breakpoint: 600,settings: {slidesToShow:1, centerPadding: '0px', vertical: false, verticalSwiping: false}}] });
+                    });
+                </script>
+            </div>
+</div>
+
+
+
+        <div id="TextFeature_392f68b853ed4b56b6422ffc66322237" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-color-white-wrapper site-bg-primary-wrapper site-feature-bottom-no-space-wrapper site-padding-mob-bottom-50-wrapper site-padding-mob-right-50-wrapper cms-tag-feature-text-wrapper cms-tag-feature-admissions-wrapper " feature-data-tag="text admissions ">
+        <div id="textfeature_392f68b853ed4b56b6422ffc66322237" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_392f68b853ed4b56b6422ffc66322237" class="cms-feature-datablock cms-text-feature-content site-color-white site-bg-primary site-feature-bottom-no-space site-padding-mob-bottom-50 site-padding-mob-right-50 cms-tag-feature-text cms-tag-feature-admissions ">
+                    <h3>ADMISSION</h3>
+
+<p><strong><a href="../why-walker/index.html">WHY THE WALKER SCHOOL</a><br>
+<a href="../admission-process/index.html">ADMISSION PROCESS</a><br>
+<a href="../plan-your-visit/index.html">PLAN YOUR VISIT</a><br>
+<a href="../tuition-and-financial-aid/index.html">TUITION AND FINANCIAL ASSISTANCE</a><br>
+<a href="../international-students/index.html">INTERNATIONAL STUDENTS</a><br>
+<a href="../transportation/index.html">TRANSPORTATION</a><br>
+<a href="../brochures/index.html">BROCHURES</a><br>
+<a href="../frequently-asked-questions/index.html">FREQUENTLY ASKED QUESTIONS</a></strong></p>
+
+                </div>
+        </div>
+    </div>
+
+
+
+    <div id="GalleryFeature_7cae84f072a1473a9e1a5bab073cac19" class="cms-gallery-feature cms-gallery-feature-wrapper cms-feature-wrapper featureMainDiv  drop-target site-slide-caption-dt-mc-wrapper site-slide-height-mob-fixed-wrapper site-slide-height-dt-cover-wrapper site-slider-slideshow-wrapper   site-color-white-wrapper site-full-width-content-wrapper site-feature-bottom-no-space-wrapper site-custom-banner-size-150-wrapper site-custom-last-slide-wrapper site-custom-red-header-wrapper cms-tag-feature-gallery-wrapper cms-tag-feature-admissions-wrapper " featureid="2834" componentfeatureid="" ondrop="dropOverExistingFeature(event)" ondragover="allowDropFeature(event)" feature-data-tag="gallery admissions ">
+
+            <div class="cms-feature-datablock site-slider site-slide-caption-dt-mc site-slide-height-mob-fixed site-slide-height-dt-cover site-slider-slideshow  site-color-white site-full-width-content site-feature-bottom-no-space site-custom-banner-size-150 site-custom-last-slide site-custom-red-header cms-tag-feature-gallery cms-tag-feature-admissions ">
+                <div id="site-slideshow_7cae84f072a1473a9e1a5bab073cac19" class="site-slick-wrapper ">
+                            <div style="background-image: url(https://thewalkerschool.static.amais.com/220816_CLS_Walker_FirstDay_1664__1___1_-421-Experience-First-Image_1417.webp?version=638614979247270000)" class="site-slide site-slider-with-image">
+
+    <div class="site-slider-image-block">
+        <img src="https://thewalkerschool.static.amais.com/220816_CLS_Walker_FirstDay_1664__1___1_-421-Experience-First-Image_1417.webp?version=638614979247270000" class="site-slider-image" title="" alt="Upper school students walking">
+    </div>
+
+    <div class="site-slider-caption">
+        <div class="site-slider-caption-block">
+            <div class="site-container">
+                <div class="site-slider-capton-data">
+                    <h2 style="text-align: center;">NEXT STEPS</h2>
+
+<p style="text-align: center;"><a class="site-button-primary" href="../inquire/index.html">Inquire</a>&nbsp; &nbsp;&nbsp;<a class="site-button-primary cms-dxp-trackable-link" href="https://www.ravenna-hub.com/schools/37805" target="_blank">Apply</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+                            </div>
+                </div>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#site-slideshow_7cae84f072a1473a9e1a5bab073cac19').slick({ infinite: false, lazyLoad: "progressive", centerMode: false, centerPadding: '0px', slidesToShow: 1, pauseOnFocus: false, pauseOnHover: false, adaptiveHeight: false, lazyLoad: true, autoplay: false, autoplaySpeed: 2500, fade: false, speed: 2500, arrows: false, dots: false, vertical: false, verticalSwiping: false });
+                    });
+                </script>
+            </div>
+</div>
+
+
+</div>
+
+                </div>
+            </div>
+            <!-- End main wrapper -->
+
+        </main>
+        <!-- End Main Area -->
+
+        <!-- Start Footer -->
+        <footer id="site-footer" class="site-footer">
+<div class="site-container">
+    <div class="site-footer-block">
+        <div class="site-footer-links">
+            <div id="site-footer-links" class="feature-zone  ">
+
+
+        <div id="TextFeature_6334ab0fd0e14c1ba58726727c09ce35" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-feature-bottom-no-space-wrapper cms-tag-feature-text-wrapper cms-tag-feature-footer-wrapper " feature-data-tag="text footer ">
+        <div id="textfeature_6334ab0fd0e14c1ba58726727c09ce35" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_6334ab0fd0e14c1ba58726727c09ce35" class="cms-feature-datablock cms-text-feature-content site-feature-bottom-no-space cms-tag-feature-text cms-tag-feature-footer ">
+                    <p><span style="color:#762122;"><strong>(770) 427-2689</strong></span> <strong><span style="color:#762122;">|</span></strong> <strong>Main Campus</strong> - 700 Cobb Parkway North, Marietta, Ga. 30062 <strong><span style="color:#762122;">|</span></strong> <strong>Primary School</strong> -&nbsp;830 Damar Road, Marietta, Ga. 30062</p>
+
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+        </div>
+        <div class="site-footer-right">
+            <div class="footer-social-block social-block-wrapper">
+                <div id="site-footer-right" class="feature-zone  ">
+
+
+        <div id="TextFeature_40c8e4e865db46d5942de41ec94f6a46" class="cms-text-feature cms-text-feature-wrapper cms-feature-wrapper featureMainDiv  site-feature-bottom-no-space-wrapper cms-tag-feature-text-wrapper cms-tag-feature-footer-wrapper " feature-data-tag="text footer ">
+        <div id="textfeature_40c8e4e865db46d5942de41ec94f6a46" class="cms-text-feature-data">
+                <div id="TextFeature_ContentArea_40c8e4e865db46d5942de41ec94f6a46" class="cms-feature-datablock cms-text-feature-content site-feature-bottom-no-space cms-tag-feature-text cms-tag-feature-footer ">
+                    <p><a class="site-social-youtube" href="https://www.youtube.com/channel/UCUMhH_RpU82k0PolhNTxqUA" target="_blank">youtube</a> <a class="site-social-linkedin" href="https://www.linkedin.com/school/the-walker-school/people" target="_blank">linkedin</a> <a class="site-social-facebook" href="https://www.facebook.com/TheWalkerSchool" target="_blank">facebook</a> <a class="site-social-twitter" href="https://twitter.com/thewalkerschool" target="_blank">twitter</a> <a class="site-social-instagram" href="https://www.instagram.com/thewalkerschool/" target="_blank">instagram</a></p>
+
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>        </footer>
+        <!-- End Footer -->
+
+    </div>
+
+
+<div class="site-wide-popup">
+    <div class="site-container">
+        <div id="site-wide-popup" class="feature-zone no-features ">
+
+</div>
+
+    </div>
+</div>
+
+    <!-- JS -->
+    <script src="../Templates/TheWalkerSchool/js/aos.js"></script>
+    <script src="../Templates/TheWalkerSchool/js/mapster.js"></script>
+    <script src="../Templates/TheWalkerSchool/js/midnight.jquery.min.js"></script>
+    <script src="../Templates/TheWalkerSchool/js/site-script.js"></script>
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://thewalkerschool-cdn.website.amais.com/js/search.js?v=1.158.26191.14"></script>
+<script src="https://thewalkerschool-cdn.website.amais.com/js/page-factory.js?v=1.158.26191.14"></script>
+<script src="https://thewalkerschool-cdn.website.amais.com/js/common.js?v=1.158.26191.14"></script>
+
+
+
+
+
+</body></html>
