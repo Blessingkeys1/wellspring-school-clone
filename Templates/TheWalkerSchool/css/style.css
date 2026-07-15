@@ -8622,3 +8622,19 @@ body.cms-page-is-published .cms-bb-search-block-wrapper .cms-bb-search-block-des
     top: 222px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* Wellspring Logo Overrides */
+.site-header-logo .site-slider-with-image {
+    background-image: none !important; 
+}
+.site-header-logo .site-slider-image {
+    opacity: 1 !important;
+    visibility: visible !important;
+    max-height: 85px !important;
+    width: auto !important;
+    filter: none !important;
+    mix-blend-mode: multiply !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
