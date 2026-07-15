@@ -8638,3 +8638,21 @@ body.cms-page-is-published .cms-bb-search-block-wrapper .cms-bb-search-block-des
     margin: 0 !important;
     padding: 10px 0 !important;
 }
+
+
+/* Ensure school name text is visible */
+.site-header-logo {
+    width: auto !important;
+    max-width: 100% !important;
+    flex: 1 !important;
+}
+.site-slider-image-block {
+    overflow: visible !important;
+    width: auto !important;
+}
+.site-header-school-name {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 9999 !important;
+}
